@@ -1,0 +1,87 @@
+/* NAVBAR */
+nav {
+  width: 100%;
+  background: #2c3e50;
+  padding: 15px 20px;
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #60a5fa;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column; /* IMPORTANT */
+  }
+
+  .hamburger {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 10px;
+  }
+
+  /* Menu in normal flow (NO absolute/NO fixed) */
+  nav ul {
+    width: 100%;
+    background: #2c3e50;
+    gap: 1px;
+
+    /* collapsed by default */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  /* When active → expand downwards */
+  nav ul.active {
+    max-height: 300px; /* enough height for 3 items */
+  }
+
+  nav ul li {
+    text-align: center;
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 15px;
+  }
+}
+

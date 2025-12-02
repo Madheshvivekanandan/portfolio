@@ -1,0 +1,33 @@
+.home-page {
+  background: #f8fafc;
+  padding-bottom: 60px;
+}
+
+/* Container spacing */
+.container-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* Section Headings */
+.section-heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 40px 0 30px;
+  color: #1e293b;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #3b82f6;
+}

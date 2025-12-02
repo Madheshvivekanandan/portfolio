@@ -1,0 +1,40 @@
+{
+  "experience": [
+    {
+      "companyCode": "TL",
+      "companyColor": "#E74C3C",
+      "role": "Junior Software Developer",
+      "company": "Tarka Labs",
+      "employmentType": "Full-time",
+      "startDate": "Jun 2025",
+      "endDate": "Present",
+      "duration": "6 mos",
+      "location": "Chennai, Tamil Nadu, India",
+      "description": ""
+    },
+    {
+      "companyCode": "IF",
+      "companyColor": "#3F7FFB",
+      "role": "Trainee Software Developer",
+      "company": "Infotel India",
+      "employmentType": "Full-time",
+      "startDate": "Nov 2024",
+      "endDate": "May 2025",
+      "duration": "7 mos",
+      "location": "Chennai, Tamil Nadu, India",
+      "description": "Mainframe developer"
+    }
+  ],
+  "education": [
+    {
+      "instituteCode": "SRIT",
+      "instituteColor": "#19A974",
+      "institute": "Sri Ramakrishna Institute of Technology",
+      "degree": "Bachelor of Engineering - BE, Computer Science",
+      "startYear": "2020",
+      "endYear": "2024",
+      "location": "Coimbatore, Tamil Nadu, India",
+      "tags": ["Engineering"]
+    }
+  ]
+}
